@@ -36,7 +36,7 @@ Save the following to a file named `archive_clicks.js` in the same directory tha
 
 Run this script using the mongo shell:
 
-    mongo mongo.mydomain.com:27017/mydomain archive_clicks.js
+    mongo localhost:27017/mydb archive_clicks.js
 
 
 ### Queued Archiving:
@@ -83,9 +83,9 @@ Save the following to a file named `archive_queued_clicks.js` in the same direct
 
 To queue documents to be archived, run the `queue_clicks_for_archive.js` script using the mongo shell:
 
-    mongo mongo.mydomain.com:27017/mydomain queue_clicks_for_archive.js
+    mongo localhost:27017/mydb queue_clicks_for_archive.js
 
 
 Then at a later time, to archive any queued documents, run the `archive_queued_clicks.js` script using the mongo shell:
 
-    mongo mongo.mydomain.com:27017/mydomain archive_queued_clicks.js
+    mongo localhost:27017/mydb archive_queued_clicks.js
