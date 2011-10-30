@@ -1,0 +1,23 @@
+# Mac
+.DS_Store
+
+# Textmate
+#.tmproj
+tmtags
+
+# Emacs
+*~
+**/*~
+\#*
+.\#*
+
+# Vim
+**/*.swp
+
+# RadRails
+.project
+.loadpath
+
+# Generic
+**/*.tmp*
+*Thumbs.db
